@@ -11,6 +11,12 @@
 ![vivado project snapshot](https://github.com/wincle626/SSPD2020Demo/blob/main/pics/vivadoproj.png)
 
 ### 3. PCSW
+
+### The host PC is running Ubuntu 22.04. The MPCHost is a Matlab project that using the spacecraft MPC model to generate data. The control state update is implemented in Matlab, and the script will send data to the Zynq Ultrascale+ ZCU106 board over Ethernet, and read data back from the board. 
+
+### The communiation over Ethernet is implemented in C based on socket programming. By adding MEX interface, the compiled mpcclient.mexa64 has the function to send/receive 40 floating point values for this MPC case. 
+
+### (The socket programming example can be found [here]([https://www.google.com](https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/)https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/)). 
   
 ### 4. PwrCfg
   
