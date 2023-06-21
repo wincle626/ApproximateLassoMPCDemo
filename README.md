@@ -28,7 +28,7 @@
   
 ### 5. Qt
 
-#### As mentioned the Qt 6.4.0 must used to enable the power monitoring app. The folder contains the compiled library and the script to export the library to system path. The script should be changed to the location where the qt library is. 
+#### As mentioned the Qt 6.4.0 must used to enable the power monitoring app. The folder contains the compiled library and the script to export the library to system path. The script should be changed according to the location where the qt library is. 
   
 ### 6. ZynqSW
 
