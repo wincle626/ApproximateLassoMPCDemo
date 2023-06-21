@@ -9,7 +9,7 @@
 ### Xilinx Ultrascale+ ZCU106: Ubuntu 22.04 on SD card (Instructions about how to prepare SD card can be found [here](https://github.com/wincle626/ZCU106_SD_Card_Setup)).
 
 <p align="center">
-  <img width="600" height="600" src="https://github.com/wincle626/SSPD2020Demo/blob/main/pics/DemoArch.png">
+  <img width="600" height="400" src="https://github.com/wincle626/SSPD2020Demo/blob/main/pics/DemoArch.png">
 </p>
 
 ## Project structure:
