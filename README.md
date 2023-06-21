@@ -31,3 +31,7 @@
 #### As mentioned the Qt 6.4.0 must used to enable the power monitoring app. The folder contains the compiled library and the script to export the library to system path. The script should be changed to the location where the qt library is. 
   
 ### 6. ZynqSW
+
+#### On the ZCU106 board, a simple socket server is running for receive data from host PC, streaming data to/from the PGD accelerator on FPGA, send data back to the host PC. So on the PC side, the Matlab could communicate to the FPGA accelerator over Ethernet. This is a similar solution to [MathWork Simulink](https://uk.mathworks.com/help/hdlcoder/ug/getting-started-with-hardware-software-codesign-workflow-for-zynq-ultrascale-mpsoc-devices.html#d124e132669). 
+
+#### The executable 'mpc_n10_host' can streaming 40 floating point values to and read back from ZCU106 board as well as the Ethernet receive/send communications, while the executable 'mpcn10' is a wrapper that running infinite time of 'mpc_n10_host'. Hence a mini TCP server is running on ARM to connecting FPGA accelerator and the Matlab on PC. 
