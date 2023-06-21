@@ -1,0 +1,6 @@
+QMAKE_PRL_BUILD_DIR = /home/udrc/qt-hostbuild/qtcharts/src/charts
+QMAKE_PRL_TARGET = libQt6Charts.so
+QMAKE_PRL_CONFIG = shared
+QMAKE_PRL_VERSION = 6.4.0
+QMAKE_PRL_LIBS = $$[QT_INSTALL_LIBS]/libQt6OpenGLWidgets.so $$[QT_INSTALL_LIBS]/libQt6OpenGL.so $$[QT_INSTALL_LIBS]/libQt6Widgets.so $$[QT_INSTALL_LIBS]/libQt6Gui.so $$[QT_INSTALL_LIBS]/libQt6Core.so -lGLX -lOpenGL
+QMAKE_PRL_LIBS_FOR_CMAKE = $$[QT_INSTALL_LIBS]/libQt6OpenGLWidgets.so;$$[QT_INSTALL_LIBS]/libQt6OpenGL.so;$$[QT_INSTALL_LIBS]/libQt6Widgets.so;$$[QT_INSTALL_LIBS]/libQt6Gui.so;$$[QT_INSTALL_LIBS]/libQt6Core.so;-lGLX;-lOpenGL

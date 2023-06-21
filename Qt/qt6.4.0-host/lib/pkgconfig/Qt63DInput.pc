@@ -1,0 +1,13 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 3DInput
+Description: Qt 3DInput module
+Version: 6.4.0
+Libs: -L${libdir} -lQt63DInput
+Cflags: -I${includedir}/Qt3DInput -I${includedir} -DQT_3DINPUT_LIB
+Requires: Qt63DCore Qt6Core Qt6Gui

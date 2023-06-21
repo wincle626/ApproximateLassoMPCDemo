@@ -1,0 +1,13 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 Quick3DHelpers
+Description: Qt Quick3DHelpers module
+Version: 6.4.0
+Libs: -L${libdir} -lQt6Quick3DHelpers
+Cflags: -I${includedir}/QtQuick3DHelpers -I${includedir} -DQT_QUICK3DHELPERS_LIB
+Requires: Qt6Qml Qt6Quick Qt6Quick3D

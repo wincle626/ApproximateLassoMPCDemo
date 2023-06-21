@@ -1,0 +1,13 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 PositioningQuick
+Description: Qt PositioningQuick module
+Version: 6.4.0
+Libs: -L${libdir} -lQt6PositioningQuick
+Cflags: -I${includedir}/QtPositioningQuick -I${includedir} -DQT_POSITIONINGQUICK_LIB
+Requires: Qt6Core Qt6Positioning Qt6Qml Qt6Quick

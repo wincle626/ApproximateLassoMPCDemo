@@ -1,0 +1,4 @@
+QMAKE_PRL_BUILD_DIR = /home/udrc/qt-hostbuild/qtwayland/src/plugins/shellintegration/wl-shell
+QMAKE_PRL_TARGET = libQt6WlShellIntegration.so
+QMAKE_PRL_CONFIG = shared
+QMAKE_PRL_VERSION = 6.4.0

@@ -1,0 +1,13 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 WaylandCompositor
+Description: Qt WaylandCompositor module
+Version: 6.4.0
+Libs: -L${libdir} -lQt6WaylandCompositor
+Cflags: -I${includedir}/QtWaylandCompositor -I${includedir} -DQT_WAYLANDCOMPOSITOR_LIB
+Requires: Qt6Core Qt6Gui Qt6OpenGL Qt6Qml Qt6Quick

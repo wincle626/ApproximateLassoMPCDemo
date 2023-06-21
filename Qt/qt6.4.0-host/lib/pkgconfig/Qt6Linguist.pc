@@ -1,0 +1,11 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 Linguist
+Description: Qt Linguist module
+Version: 6.4.0
+Cflags:  -DQT_LINGUIST_LIB

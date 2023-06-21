@@ -1,0 +1,13 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 WebViewQuick
+Description: Qt WebViewQuick module
+Version: 6.4.0
+Libs: -L${libdir} -lQt6WebViewQuick
+Cflags: -I${includedir}/QtWebViewQuick -I${includedir} -DQT_WEBVIEWQUICK_LIB
+Requires: Qt6Quick Qt6QmlModels Qt6OpenGL

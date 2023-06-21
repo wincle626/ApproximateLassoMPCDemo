@@ -1,0 +1,13 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 VirtualKeyboard
+Description: Qt VirtualKeyboard module
+Version: 6.4.0
+Libs: -L${libdir} -lQt6VirtualKeyboard
+Cflags: -I${includedir}/QtVirtualKeyboard -I${includedir} -DQT_VIRTUALKEYBOARD_LIB
+Requires: Qt6Core Qt6Gui Qt6Qml Qt6Quick

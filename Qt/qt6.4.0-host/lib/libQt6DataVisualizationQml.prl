@@ -1,0 +1,4 @@
+QMAKE_PRL_BUILD_DIR = /home/udrc/qt-hostbuild/qtdatavis3d/src/datavisualizationqml
+QMAKE_PRL_TARGET = libQt6DataVisualizationQml.so
+QMAKE_PRL_CONFIG = shared
+QMAKE_PRL_VERSION = 6.4.0

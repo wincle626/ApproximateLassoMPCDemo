@@ -1,0 +1,13 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 ShaderTools
+Description: Qt ShaderTools module
+Version: 6.4.0
+Libs: -L${libdir} -lQt6ShaderTools
+Cflags: -I${includedir}/QtShaderTools -I${includedir} -DQT_SHADERTOOLS_LIB
+Requires: Qt6Core Qt6Gui

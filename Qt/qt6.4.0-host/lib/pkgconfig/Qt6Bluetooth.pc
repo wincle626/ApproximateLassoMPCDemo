@@ -1,0 +1,13 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 Bluetooth
+Description: Qt Bluetooth module
+Version: 6.4.0
+Libs: -L${libdir} -lQt6Bluetooth
+Cflags: -I${includedir}/QtBluetooth -I${includedir} -DQT_BLUETOOTH_LIB
+Requires: Qt6Core Qt6Network Qt6DBus

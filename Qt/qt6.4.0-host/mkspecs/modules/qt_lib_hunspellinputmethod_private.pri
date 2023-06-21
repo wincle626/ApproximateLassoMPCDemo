@@ -1,0 +1,11 @@
+QT.hunspellinputmethod_private.VERSION = 6.4.0
+QT.hunspellinputmethod_private.name = QtHunspellInputMethod
+QT.hunspellinputmethod_private.module =
+QT.hunspellinputmethod_private.libs = $$QT_MODULE_LIB_BASE
+QT.hunspellinputmethod_private.includes = $$QT_MODULE_INCLUDE_BASE/QtHunspellInputMethod/6.4.0 $$QT_MODULE_INCLUDE_BASE/QtHunspellInputMethod/6.4.0/QtHunspellInputMethod
+QT.hunspellinputmethod_private.frameworks = 
+QT.hunspellinputmethod_private.depends = hunspellinputmethod
+QT.hunspellinputmethod_private.uses = 
+QT.hunspellinputmethod_private.module_config = v2 internal_module
+QT.hunspellinputmethod_private.enabled_features = 
+QT.hunspellinputmethod_private.disabled_features = 

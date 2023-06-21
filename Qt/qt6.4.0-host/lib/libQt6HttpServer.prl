@@ -1,0 +1,6 @@
+QMAKE_PRL_BUILD_DIR = /home/udrc/qt-hostbuild/qthttpserver/src/httpserver
+QMAKE_PRL_TARGET = libQt6HttpServer.so
+QMAKE_PRL_CONFIG = shared
+QMAKE_PRL_VERSION = 6.4.0
+QMAKE_PRL_LIBS = $$[QT_INSTALL_LIBS]/libQt6WebSockets.so $$[QT_INSTALL_LIBS]/libQt6Network.so $$[QT_INSTALL_LIBS]/libQt6Core.so
+QMAKE_PRL_LIBS_FOR_CMAKE = $$[QT_INSTALL_LIBS]/libQt6WebSockets.so;$$[QT_INSTALL_LIBS]/libQt6Network.so;$$[QT_INSTALL_LIBS]/libQt6Core.so

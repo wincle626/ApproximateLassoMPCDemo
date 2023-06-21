@@ -1,0 +1,13 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 SerialPort
+Description: Qt SerialPort module
+Version: 6.4.0
+Libs: -L${libdir} -lQt6SerialPort
+Cflags: -I${includedir}/QtSerialPort -I${includedir} -DQT_SERIALPORT_LIB
+Requires: Qt6Core

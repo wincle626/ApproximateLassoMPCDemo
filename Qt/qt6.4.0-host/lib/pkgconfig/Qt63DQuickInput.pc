@@ -1,0 +1,13 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 3DQuickInput
+Description: Qt 3DQuickInput module
+Version: 6.4.0
+Libs: -L${libdir} -lQt63DQuickInput
+Cflags: -I${includedir}/Qt3DQuickInput -I${includedir} -DQT_3DQUICKINPUT_LIB
+Requires: Qt63DCore Qt63DInput Qt63DQuick Qt6Core Qt6Gui Qt6Qml

@@ -1,0 +1,12 @@
+prefix=/home/udrc/qt-host
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/./libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 RepParser
+Description: Qt RepParser module
+Version: 6.4.0
+Cflags: -I${includedir}/QtRepParser -I${includedir} -DQT_REPPARSER_LIB
+Requires: Qt6Core

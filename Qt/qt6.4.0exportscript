@@ -1,0 +1,7 @@
+export PATH=$PATH:/home/udrc/qt6.4.0-host/bin:/home/udrc/qtcreator6.4.0-host/bin
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/udrc/qt6.4.0-host/lib:/home/udrc/qtcreator6.4.0-host/lib
+
+export C_INCLUDE_PATH=$C_INCLUDE_PATH:/home/udrc/qt6.4.0-host/include:/home/udrc/qtcreator6.4.0-host/include
+
+export CPLUS_INCLUDE_PATH=$C_INCLUDE_PATH:/home/udrc/qt6.4.0-host/include:/home/udrc/qtcreator6.4.0-host/include
