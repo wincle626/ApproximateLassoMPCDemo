@@ -16,7 +16,7 @@
 
 ### The communiation over Ethernet is implemented in C based on socket programming. By adding MEX interface, the compiled mpcclient.mexa64 has the function to send/receive 40 floating point values for this MPC case. 
 
-### (The socket programming example can be found [here]((https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/)https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/)). 
+### The socket programming example can be found on [www.geeksforgeeks.org](https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/). 
 
 ### The demo shows figures for both the orientation of a satellite model and the run-time control process. The plotting of satellite refers to the Matlab project of [Display 3D Color NASA Calipso Satellite Model](https://uk.mathworks.com/matlabcentral/fileexchange/71148-display-3d-color-nasa-calipso-satellite-model?requestedDomain=). The run-time control process plots all the states every time step. 
   
