@@ -38,7 +38,11 @@
 
 ## Demo Draft
 
-[![Spacecraft MPC horizon N=10 fixed point 28 bits](https://i9.ytimg.com/vi_webp/GR8h1Lunoiw/mq2.webp?sqp=CPyfy6QG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CIAC0AWKAgwIABABGFYgXyhlMA8=&rs=AOn4CLB3rw22HIuYc6_LVnZJznA4x4fkXw)](https://youtu.be/GR8h1Lunoiw))
+[![Spacecraft MPC horizon N=10 fixed point 28 bits](https://i9.ytimg.com/vi_webp/GR8h1Lunoiw/mq2.webp?sqp=CPyfy6QG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CIAC0AWKAgwIABABGFYgXyhlMA8=&rs=AOn4CLB3rw22HIuYc6_LVnZJznA4x4fkXw)](https://youtu.be/GR8h1Lunoiw)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=GR8h1Lunoiw" target="_blank">
+ <img src="https://i9.ytimg.com/vi_webp/GR8h1Lunoiw/mq2.webp?sqp=CPyfy6QG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CIAC0AWKAgwIABABGFYgXyhlMA8=&rs=AOn4CLB3rw22HIuYc6_LVnZJznA4x4fkXw" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
 [![Watch the video](https://img.youtube.com/vi/nTQUwghvy5Q/default.jpg)](https://youtu.be/nTQUwghvy5Q)
 
