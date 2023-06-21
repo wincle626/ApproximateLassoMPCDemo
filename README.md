@@ -16,7 +16,7 @@
 
 #### The communiation over Ethernet is implemented in C based on socket programming. By adding MEX interface, the compiled mpcclient.mexa64 has the function to send/receive 40 floating point values for this MPC case. 
 
-#### The socket programming example can be found on [www.geeksforgeeks.org](https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/). 
+#### The socket programming example can be found on [www.geeksforgeeks.org](https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/). In this demo, the host PC IP is set to 192.168.137.1, while the ZCU106 IP is set to 192.168.137.106. 
 
 #### The demo shows figures for both the orientation of a satellite model and the run-time control process. The plotting of satellite refers to the Matlab project of [Display 3D Color NASA Calipso Satellite Model](https://uk.mathworks.com/matlabcentral/fileexchange/71148-display-3d-color-nasa-calipso-satellite-model?requestedDomain=). The run-time control process plots all the states every time step. 
   
@@ -25,6 +25,8 @@
 #### As different approximate MPC schemes consume different power on FPGA, there is a Qt app 'PowerMonitor' running on the ARM processor to monitor the power soncumptions at the run-time. In order to run the Qt app, the Qt 6.4.0 library must be compiled for aarch64 architecture (it's included in the Qt folder.). 
 
 #### The Qt app also can locate the bit file and configure the FPGA based on the solution of [Xilinx MPSoC PL programming](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841847/Solution+ZynqMP+PL+Programming?f=print). In order to use the Qt app to configure the FPGA, the executable file 'fpgautil.elf' MUST be put in the folder '/home/udrc/fpgautil/' for this demo. 
+
+#### To run the Qt app, [Putty](https://www.putty.org/) is used to ssh the ZCU106. In order to measure the power and scale the voltage, the ssh must use root identity to remotely connect ZCU106. Or it can also use command line on Ubuntu: ssh -X root@192.168.137.106, with root password. 
   
 ### 5. Qt
 
@@ -35,6 +37,8 @@
 #### On the ZCU106 board, a simple socket server is running for receive data from host PC, streaming data to/from the PGD accelerator on FPGA, send data back to the host PC. So on the PC side, the Matlab could communicate to the FPGA accelerator over Ethernet. This is a similar solution to [MathWork Simulink](https://uk.mathworks.com/help/hdlcoder/ug/getting-started-with-hardware-software-codesign-workflow-for-zynq-ultrascale-mpsoc-devices.html#d124e132669). 
 
 #### The executable 'mpc_n10_host' can streaming 40 floating point values to and read back from ZCU106 board as well as the Ethernet receive/send communications, while the executable 'mpcn10' is a wrapper that running infinite time of 'mpc_n10_host'. Hence a mini TCP server is running on ARM to connecting FPGA accelerator and the Matlab on PC. 
+
+#### 
 
 ## Demo Draft on YouTube
 
