@@ -2,13 +2,18 @@
 
 #### Yun Wu, Joao F. C. Mota, Andrew M. Wallace. Approximate LASSO Model Predictive Control forResource Constrained Systems. Sensor Signal Processing for Defence (SSPD) conference 2020. 
 
-## File structure:
---|__BitFiles
+## Project structure:
 
-  |__PCSW
+### 1. BitFiles
+
+#### There three bitstream files for configuring the FPGA. Refer to the paper, only the Proximal Gradient Descent (PGD) solver is implemented. The figure bellow shows the implemented architecture using AXI Streaming interface with DMA. 
+
+![vivado project snapshot](https://github.com/wincle626/SSPD2020Demo/blob/main/pics/vivadoproj.png)
+
+### 3. PCSW
   
-  |__ PwrCfg
+### 4. PwrCfg
   
-  |__Qt
+### 5. Qt
   
-  |__ZynqSW
+### 6. ZynqSW
