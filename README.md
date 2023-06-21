@@ -6,9 +6,7 @@
 
 ### Host PC: Ubuntu 22.04
 
-### ZCU106: Ubuntu 22.04 on SD card (Instructions about how to prepare SD card can be found [here](https://github.com/wincle626/ZCU106_SD_Card_Setup)).
-
-###
+### Xilinx Ultrascale+ ZCU106: Ubuntu 22.04 on SD card (Instructions about how to prepare SD card can be found [here](https://github.com/wincle626/ZCU106_SD_Card_Setup)).
 
 ## Project structure:
 
