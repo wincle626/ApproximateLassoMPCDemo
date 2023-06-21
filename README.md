@@ -1,4 +1,4 @@
-# Run-time Approximate Lasso MPC Control Demonstration
+# Run-time Approximate Lasso MPC Demonstration
 
 #### Yun Wu, Joao F. C. Mota, Andrew M. Wallace. Approximate LASSO Model Predictive Control forResource Constrained Systems. Sensor Signal Processing for Defence (SSPD) conference 2020. 
 
