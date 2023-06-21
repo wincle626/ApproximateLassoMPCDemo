@@ -4,7 +4,11 @@
 
 ## File structure:
 --|__BitFiles
+
   |__PCSW
+  
   |__ PwrCfg
+  
   |__Qt
+  
   |__ZynqSW
