@@ -36,7 +36,7 @@
 
 #### The executable 'mpc_n10_host' can streaming 40 floating point values to and read back from ZCU106 board as well as the Ethernet receive/send communications, while the executable 'mpcn10' is a wrapper that running infinite time of 'mpc_n10_host'. Hence a mini TCP server is running on ARM to connecting FPGA accelerator and the Matlab on PC. 
 
-## Demo Draft
+## Demo Draft on YouTube
 
 ### Spacecraft MPC horizon N=10 Floating point 64 bits
 
