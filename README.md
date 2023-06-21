@@ -22,7 +22,7 @@
   
 ### 4. PwrCfg
 
-#### As different approximate MPC schemes consume different power on FPGA, there is a Qt app running on the ARM processor to monitor the power soncumptions at the run-time. In order to run the Qt app, the Qt 6.4.0 library must be compiled for aarch64 architecture (it's included in the Qt folder.). 
+#### As different approximate MPC schemes consume different power on FPGA, there is a Qt app 'PowerMonitor' running on the ARM processor to monitor the power soncumptions at the run-time. In order to run the Qt app, the Qt 6.4.0 library must be compiled for aarch64 architecture (it's included in the Qt folder.). 
 
 #### The Qt app also can locate the bit file and configure the FPGA based on the solution of [Xilinx MPSoC PL programming](https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18841847/Solution+ZynqMP+PL+Programming?f=print). In order to use the Qt app to configure the FPGA, the executable file 'fpgautil.elf' MUST be put in the folder '/home/udrc/fpgautil/' for this demo. 
   
