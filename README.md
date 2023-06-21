@@ -2,6 +2,12 @@
 
 #### Yun Wu, Joao F. C. Mota, Andrew M. Wallace. Approximate LASSO Model Predictive Control forResource Constrained Systems. Sensor Signal Processing for Defence (SSPD) conference 2020. 
 
+## System setup:
+
+### Host PC: Ubuntu 22.04
+
+### ZCU106: Ubuntu 22.04 on SD card (Instructions about how to prepare SD card can be found [here](https://github.com/wincle626/ZCU106_SD_Card_Setup)).
+
 ## Project structure:
 
 ### 1. BitFiles
@@ -12,7 +18,7 @@
 
 ### 3. PCSW
 
-#### The host PC is running Ubuntu 22.04. The MPCHost is a Matlab project that using the spacecraft MPC model to generate data. The control state update is implemented in Matlab, and the script will send data to the Zynq Ultrascale+ ZCU106 board over Ethernet, and read data back from the board. 
+#### The MPCHost is a Matlab project that using the spacecraft MPC model to generate data. The control state update is implemented in Matlab, and the script will send data to the Zynq Ultrascale+ ZCU106 board over Ethernet, and read data back from the board. 
 
 #### The communiation over Ethernet is implemented in C based on socket programming. By adding MEX interface, the compiled mpcclient.mexa64 has the function to send/receive 40 floating point values for this MPC case. 
 
