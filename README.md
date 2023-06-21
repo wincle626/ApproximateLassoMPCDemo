@@ -6,7 +6,7 @@
 
 ### 1. BitFiles
 
-#### There three bitstream files for configuring the FPGA. Refer to the paper, only the Proximal Gradient Descent (PGD) solver is implemented. The figure bellow shows the implemented architecture using AXI Streaming interface with DMA. 
+#### There three bitstream files for configuring the FPGA. Refer to the paper, only the Proximal Gradient Descent (PGD) solver is implemented. The figure bellow shows the implemented PGD accelerator using AXI Streaming interface with DMA. 
 
 ![vivado project snapshot](https://github.com/wincle626/SSPD2020Demo/blob/main/pics/vivadoproj.png)
 
