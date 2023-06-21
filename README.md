@@ -1,4 +1,4 @@
-# Run-time Approximate Lasso MPC Control Demonstration
+![image](https://github.com/wincle626/SSPD2020Demo/assets/11621727/da7023df-bd9b-4ce5-8509-d3e610824f06)# Run-time Approximate Lasso MPC Control Demonstration
 
 #### Yun Wu, Joao F. C. Mota, Andrew M. Wallace. Approximate LASSO Model Predictive Control forResource Constrained Systems. Sensor Signal Processing for Defence (SSPD) conference 2020. 
 
@@ -35,3 +35,12 @@
 #### On the ZCU106 board, a simple socket server is running for receive data from host PC, streaming data to/from the PGD accelerator on FPGA, send data back to the host PC. So on the PC side, the Matlab could communicate to the FPGA accelerator over Ethernet. This is a similar solution to [MathWork Simulink](https://uk.mathworks.com/help/hdlcoder/ug/getting-started-with-hardware-software-codesign-workflow-for-zynq-ultrascale-mpsoc-devices.html#d124e132669). 
 
 #### The executable 'mpc_n10_host' can streaming 40 floating point values to and read back from ZCU106 board as well as the Ethernet receive/send communications, while the executable 'mpcn10' is a wrapper that running infinite time of 'mpc_n10_host'. Hence a mini TCP server is running on ARM to connecting FPGA accelerator and the Matlab on PC. 
+
+## Demo Draft
+
+[![Spacecraft MPC horizon N=10 fixed point 28 bits](https://i9.ytimg.com/vi_webp/GR8h1Lunoiw/mq2.webp?sqp=CPyfy6QG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CIAC0AWKAgwIABABGFYgXyhlMA8=&rs=AOn4CLB3rw22HIuYc6_LVnZJznA4x4fkXw)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://youtu.be/GR8h1Lunoiw))
+
+[Spacecraft MPC horizon N=10 Floating point 64 bits](https://youtu.be/Q4_9WLV2qkc)
+
+[Spacecraft MPC horizon N=10 fixed point 28 bits](https://youtu.be/GR8h1Lunoiw)
+
