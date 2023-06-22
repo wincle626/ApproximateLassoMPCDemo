@@ -56,6 +56,8 @@
 
 [![Spacecraft MPC horizon N=10 Floating point 64 bits](https://i9.ytimg.com/vi_webp/Q4_9WLV2qkc/mq2.webp?sqp=CPyfy6QG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CIAC0AWKAgwIABABGFYgXyhlMA8=&rs=AOn4CLAkn1tr2Sg-txdKoso0rV6GyzpGow)](https://youtu.be/Q4_9WLV2qkc)
 
+<iframe width="735" height="459" src="https://www.youtube.com/embed/Q4_9WLV2qkc" title="Spacecraft MPC horizon N=10 Floating point 64 bits" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### Spacecraft MPC horizon N=10 fixed point 28 bits
 
 [![Spacecraft MPC horizon N=10 fixed point 28 bits](https://i9.ytimg.com/vi_webp/GR8h1Lunoiw/mq2.webp?sqp=CPyfy6QG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CIAC0AWKAgwIABABGFYgXyhlMA8=&rs=AOn4CLB3rw22HIuYc6_LVnZJznA4x4fkXw)](https://youtu.be/GR8h1Lunoiw)
