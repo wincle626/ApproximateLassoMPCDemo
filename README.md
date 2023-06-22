@@ -58,5 +58,5 @@
 
 ### Spacecraft MPC horizon N=10 fixed point 28 bits
 
-[![Spacecraft MPC horizon N=10 fixed point 28 bits](https://i9.ytimg.com/vi_webp/GR8h1Lunoiw/mq2.webp?sqp=CPyfy6QG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CIAC0AWKAgwIABABGFYgXyhlMA8=&rs=AOn4CLB3rw22HIuYc6_LVnZJznA4x4fkXw)](https://youtu.be/GR8h1Lunoiw)
+[![Spacecraft MPC horizon N=10 fixed point 28 bits](https://i9.ytimg.com/vi_webp/GR8h1Lunoiw/mq2.webp?sqp=CPjR0aQG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CIAC0AWKAgwIABABGFYgXyhlMA8=&rs=AOn4CLAXFZ-qtcBqeTu-WNoEKjmD7K7kPg)](https://youtu.be/GR8h1Lunoiw)
 
