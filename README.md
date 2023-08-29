@@ -29,6 +29,8 @@
 #### The socket programming example can be found on [www.geeksforgeeks.org](https://www.geeksforgeeks.org/tcp-server-client-implementation-in-c/). In this demo, the host PC IP is set to 192.168.137.1, while the ZCU106 IP is set to 192.168.137.106. 
 
 #### The demo shows figures for both the orientation of a satellite model and the run-time control process. The plotting of satellite refers to the Matlab project of [Display 3D Color NASA Calipso Satellite Model](https://uk.mathworks.com/matlabcentral/fileexchange/71148-display-3d-color-nasa-calipso-satellite-model?requestedDomain=). The run-time control process plots all the states every time step. 
+
+#### The power monitor app is running through SSH from host PC to ZCU106 using 'root' access. [PUTTY](https://www.putty.org/) is used as the SSH client and [VcXsrc](https://sourceforge.net/projects/vcxsrv/) is used as the X server to display the SSH content. 
   
 ### 4. PwrCfg
 
