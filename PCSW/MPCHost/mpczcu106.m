@@ -65,12 +65,12 @@ while(1)
     for ct = 1:length(t_unconstrained)
     % for ct = 1
         Atb = A_hat' * b_hat;
-        % z = mpcclient(Atb.');
+        z = mpcclient(Atb.');
+        pause(0.6);
+        z = mpcclient(Atb.');
         % pause(0.6);
-        % z = mpcclient(Atb.');
-    %     pause(0.6);
-        z = lassompc_pgd(AtA, Atb, m, n, N, ...
-                         lambda, beta, gamma, MAX_ITER);
+        % z = lassompc_pgd(AtA, Atb, m, n, N, ...
+        %                  lambda, beta, gamma, MAX_ITER);
     %     [z, itr, lmd] = lassompc_pgd0(A_hat, b_hat, AtA, Atb, m, n, N, ...
     %                      lambda, beta, gamma, MAX_ITER);
     %     lambda = lmd*2;
